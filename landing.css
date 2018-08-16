@@ -1,3 +1,38 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
 #header-img{
     width: 400px;
+}
+#header{
+    display: flex;
+}
+#serveis{   
+    display: flex;
+    background: #9ad9e2;
+    justify-content: center;
+}
+.caracteristica{
+    display: flex;
+    justify-content: center;
+}
+.servei{
+    margin: 10px;
+    padding: 100px;
+    background: teal;
+    color:white;
+}
+h1, h2{
+    margin:auto;
+    text-align: center;
+    padding: 25px;
+}
+.bloc{
+    text-align:center;
+}
+#features{
+    
+}
+footer{
+    margin-top:25px;
 }
