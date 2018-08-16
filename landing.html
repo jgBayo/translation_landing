@@ -5,52 +5,58 @@
 	<meta charset="utf-8">
 </head>
 <body>
+<<<<<<< HEAD
     <!-- fCC Test Suite-->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+=======
+    <!-- fCC Test Suite-->    
+    <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+>>>>>>> b87dd43ff632dcdd369614823e9fabd9d1e339f0
     <!-- Styling-->
     <link rel="stylesheet" type="text/css" href="landing.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <!--Product Landing Page -->
     <!-- Header & Navigation-->
 
     <header id="header">
         <img id="header-img" src="logo_TM.png" alt="Logo Traduccions Morgan">
         <nav id="nav-bar">
-            <ul>
-                <li><a href="#" class="nav-link">Característiques</a></li>
-                <li><a href="#" class="nav-link">Serveis</a></li>
-                <li><a href="#" class="nav-link">Contacte</a></li>
-            </ul>
+            <a href="#caracteristiques" class="nav-link">Característiques</a>
+            <a href="#serveis" class="nav-link">Serveis</a>
+            <a href="#form" class="nav-link">Contacte</a>
         </nav>
     </header>
     <h1>Traduccions Morgan</h1>
     <!--Features-->
-    <div>
-        <h2>Característiques</h2>
+    <div class="bloc" id="features">
+        <h2 id="#caracteristiques">Característiques</h2>
             <div class="caracteristica"><img class="icon" src="icons/traduccio.png"><p>Serveis de traducció professionals</p></div>
             <div class="caracteristica"><img class="icon" src="icons/serveis.png"><p>Àmplia experiència en traducció</p></div>
             <div class="caracteristica"><img class="icon" src="icons/financer.png"><p>Traducció de documents financers especialitzada</p></div>
             <div class="caracteristica"><img class="icon" src="icons/revisio.png"><p>Revisió de documents traduïts</p></div>
     </div>
     <!--Services-->
-    <div>
-        <h2>Serveis</h2>
-        <div class ="servei">Revisió documents en Anglès</div>
-        <div class ="servei">Traducció Català o Castellà a Anglès</div>
-        <div class ="servei">Traducció de document financer especialitat Català o Castellà a Anglès</div>
+    
+    <h2>Serveis</h2>
+    <div class="bloc" id="serveis">
+        <div class ="servei">Revisió de documents en anglès</div>
+        <div class ="servei">Traducció català o castellà a anglès</div>
+        <div class ="servei">Traducció de document financer especialitat català o castellà a anglès</div>
 
     </div>
     <!--Contact-->
-    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post" class="bloc">
         <p>Si us plau posi's en contacte amb nosaltres si té algun dubte o vol contractar els nostres serveis.</p>
         <input type="email" id="email" name="email" placeholder="Enter your email adress" required class="textbox">
         <div class="button-centered"><input id="submit" type="submit"><!--Add CSS animations to button on hover--></div>
     </form>
     <!-- Video as requested by the project user stories -->
-    <p>This is beatbox dog. He does not translate, but he can beatbox!</p>
-    <div>
+    
+    <div class="bloc">
+        <p>This is beatbox dog. He does not translate, but he can beatbox!</p>
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/gMkZCSTBvV0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
 
-	<footer>Icons by https://icons8.com</footer>
+	<footer class="bloc">This is a project for the <a href="https://www.freecodecamp.org">freeCodeCamp</a> Responsive Web Design Certification. Icons by <a href="https://icons8.com">icons8</a>.</footer>
 </body>
 </html>
