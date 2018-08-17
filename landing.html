@@ -12,46 +12,49 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <!--Product Landing Page -->
     <!-- Header & Navigation-->
-
+   
     <header id="header">
-        <img id="header-img" src="logo_TM.png" alt="Logo Traduccions Morgan">
-        <nav id="nav-bar">
-            <a href="#caracteristiques" class="nav-link">Característiques</a>
+       <nav id="nav-bar">            
+            <img id="header-img" src="logo_TM_sm.png" alt="Logo Traduccions Morgan">
+            <a href="#form" class="nav-link">Contacte</a>   
             <a href="#serveis" class="nav-link">Serveis</a>
-            <a href="#form" class="nav-link">Contacte</a>
+            <a href="#caracteristiques" class="nav-link">Característiques</a>
         </nav>
     </header>
-    <h1>Traduccions Morgan</h1>
-    <!--Features-->
-    <div class="bloc" id="features">
-        <h2 id="#caracteristiques">Característiques</h2>
-            <div class="caracteristica"><img class="icon" src="icons/traduccio.png"><p>Serveis de traducció professionals</p></div>
-            <div class="caracteristica"><img class="icon" src="icons/serveis.png"><p>Àmplia experiència en traducció</p></div>
-            <div class="caracteristica"><img class="icon" src="icons/financer.png"><p>Traducció de documents financers especialitzada</p></div>
-            <div class="caracteristica"><img class="icon" src="icons/revisio.png"><p>Revisió de documents traduïts</p></div>
+    <div id="content"> 
+        <h1>Traduccions Morgan</h1>
+        <!--Features-->
+        <div class="bloc" id="features">
+            <h2 id="caracteristiques">Característiques</h2>
+            <div class="container">
+                <img class="icon" src="icons/traduccio.png"><p class="caracteristica">Serveis de traducció professionals</p>
+                <img class="icon" src="icons/serveis.png"><p class="caracteristica">Àmplia experiència en traducció</p>
+                <img class="icon" src="icons/financer.png"><p class="caracteristica">Traducció de documents financers especialitzada</p>
+                <img class="icon" src="icons/revisio.png"><p class="caracteristica">Revisió de documents traduïts</p>
+            </div>
+        </div>
+        <!--Services-->
+        <div id="serveis" class="bloc">
+            <h2>Serveis</h2>
+            <div id="flex">
+                <div class ="servei">Revisió de documents en anglès</div>
+                <div class ="servei">Traducció català o castellà a anglès</div>
+                <div class ="servei">Traducció de document financer especialitat català o castellà a anglès</div>
+            </div>
+        </div>
+        <!--Contact-->
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post" class="bloc">
+            <p>Si us plau posi's en contacte amb nosaltres si té algun dubte o vol contractar els nostres serveis.</p>
+            <input type="email" id="email" name="email" placeholder="Enter your email adress" required class="textbox">
+            <div class="button-centered"><input id="submit" type="submit"><!--Add CSS animations to button on hover--></div>
+        </form>
+        <!-- Video as requested by the project user stories -->
+        
+        <div class="bloc">
+            <p>This is beatbox dog. He does not translate, but he can beatbox!</p>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/gMkZCSTBvV0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
     </div>
-    <!--Services-->
-    
-    <h2>Serveis</h2>
-    <div class="bloc" id="serveis">
-        <div class ="servei">Revisió de documents en anglès</div>
-        <div class ="servei">Traducció català o castellà a anglès</div>
-        <div class ="servei">Traducció de document financer especialitat català o castellà a anglès</div>
-
-    </div>
-    <!--Contact-->
-    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post" class="bloc">
-        <p>Si us plau posi's en contacte amb nosaltres si té algun dubte o vol contractar els nostres serveis.</p>
-        <input type="email" id="email" name="email" placeholder="Enter your email adress" required class="textbox">
-        <div class="button-centered"><input id="submit" type="submit"><!--Add CSS animations to button on hover--></div>
-    </form>
-    <!-- Video as requested by the project user stories -->
-    
-    <div class="bloc">
-        <p>This is beatbox dog. He does not translate, but he can beatbox!</p>
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/gMkZCSTBvV0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-
 	<footer class="bloc">This is a project for the <a href="https://www.freecodecamp.org">freeCodeCamp</a> Responsive Web Design Certification. Icons by <a href="https://icons8.com">icons8</a>.</footer>
 </body>
 </html>
